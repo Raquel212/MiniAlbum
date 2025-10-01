@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏠 Rooms in the House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; }
+        .album-card { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out; background-color: white; }
+        .album-card:hover { transform: translateY(-5px); }
+        .photo-frame { border: 8px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="py-12 px-4">
+    <div class="w-full max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">🏠 Rooms in the House</h1>
+            <h2 class="text-2xl text-gray-500">(Cômodos da Casa)</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cozinha moderna" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">This is the <span class="font-semibold text-blue-600">kitchen</span>.</p><p class="text-md text-gray-500 italic">Esta é a <span class="font-semibold">cozinha</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Quarto espaçoso" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">The <span class="font-semibold text-blue-600">bedroom</span> is big.</p><p class="text-md text-gray-500 italic">O <span class="font-semibold">quarto</span> é grande.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="\img\Banheiro.png" alt="Banheiro moderno" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">That is the <span class="font-semibold text-blue-600">bathroom</span>.</p><p class="text-md text-gray-500 italic">Aquele é o <span class="font-semibold">banheiro</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sala de estar aconchegante" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">We are in the <span class="font-semibold text-blue-600">living room</span>.</p><p class="text-md text-gray-500 italic">Nós estamos na <span class="font-semibold">sala de estar</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="\img\SalaDeJantar.png" alt="Pequena sala de jantar" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">The <span class="font-semibold text-blue-600">dining room</span> is small.</p><p class="text-md text-gray-500 italic">A <span class="font-semibold">sala de jantar</span> é pequena.</p></div>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="album_vocabulario.html" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">← Voltar ao Menu</a>
+        </div>
+    </div>
+</body>
+</html>

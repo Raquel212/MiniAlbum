@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📦 Objects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; }
+        .album-card { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); transition: transform 0.3s ease-in-out; background-color: white; }
+        .album-card:hover { transform: translateY(-5px); }
+        .photo-frame { border: 8px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="py-12 px-4">
+    <div class="w-full max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">📦 Objects</h1>
+            <h2 class="text-2xl text-gray-500">(Objetos)</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Livro aberto" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">This is my <span class="font-semibold text-blue-600">book</span>.</p><p class="text-md text-gray-500 italic">Este é o meu <span class="font-semibold">livro</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cadeira de madeira" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">That is a <span class="font-semibold text-blue-600">chair</span>.</p><p class="text-md text-gray-500 italic">Aquilo é uma <span class="font-semibold">cadeira</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="\img\Chaves.png" alt="Molho de chaves" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">These are my <span class="font-semibold text-blue-600">keys</span>.</p><p class="text-md text-gray-500 italic">Estas são minhas <span class="font-semibold">chaves</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="\img\Bolsa.png" alt="Mochila" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">I have a <span class="font-semibold text-blue-600">bag</span>.</p><p class="text-md text-gray-500 italic">Eu tenho uma <span class="font-semibold">bolsa/mochila</span>.</p></div>
+            </div>
+            <div class="rounded-lg p-6 album-card">
+                <div class="photo-frame rounded-md overflow-hidden"><img src="\img\Caneta.jpg" alt="Caneta sobre uma mesa" class="w-full h-60 object-cover"></div>
+                <div class="text-center mt-6"><p class="text-lg text-gray-700">The <span class="font-semibold text-blue-600">pen</span> is on the <span class="font-semibold text-blue-600">desk</span>.</p><p class="text-md text-gray-500 italic">A <span class="font-semibold">caneta</span> está na <span class="font-semibold">escrivaninha</span>.</p></div>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="album_vocabulario.html" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">← Voltar ao Menu</a>
+        </div>
+    </div>
+</body>
+</html>
