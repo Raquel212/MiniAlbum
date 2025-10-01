@@ -40,5 +40,5 @@ O projeto foi pensado para ser simples, intuitivo e responsivo, adaptando-se a d
 
 ```bash
 # Clone o repositório
-git clone 
-cd miniAlbum
+git clone https://github.com/Raquel212/MiniAlbum.git
+cd MiniAlbum
